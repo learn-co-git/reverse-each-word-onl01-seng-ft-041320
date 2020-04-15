@@ -8,3 +8,15 @@ def reverse_each_word(string)
 		end
 	puts solution.join(' ')
 end
+
+
+def reverse_each_word(string)
+	solution = []
+	words_array = string.split(' ')
+	words_array.collect do |word|
+		letters = word.split('')
+			reverse_letters = letters.reverse()
+			solution << reverse_letters.join('')
+		end
+	puts solution.join(' ')
+end
