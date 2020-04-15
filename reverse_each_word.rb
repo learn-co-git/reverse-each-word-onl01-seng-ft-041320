@@ -6,7 +6,7 @@ def reverse_each_word(string)
 			reverse_letters = letters.reverse()
 			solution << reverse_letters.join('')
 		end
-	puts solution.join(' ')
+	return solution.join(' ')
 end
 
 
@@ -18,5 +18,5 @@ def reverse_each_word(string)
 			reverse_letters = letters.reverse()
 			solution << reverse_letters.join('')
 		end
-	puts solution.join(' ')
+	return solution.join(' ')
 end
